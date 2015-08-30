@@ -1,0 +1,18 @@
+﻿a) 8 commits
+
+b)9 days ago
+
+c) .classpath , .gitattributes, .gitignore , . project
+
+d)  Harwoodseller.java  29 additions
+     WoodItem.java         74 additions
+
+e) git log : it is the log of all commits made to this repository
+   
+    git status : it gives status of your branch with origin/master . It also gives all changes to be committed.
+
+f)git log --grep “main.java”
+
+g) git log -- grep “transaction”
+
+h)git log –author= “Lauren”  --since ”JAN 05 2015” --untill “JUL 14 2015”
