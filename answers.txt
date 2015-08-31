@@ -2,7 +2,7 @@ a) 8 commits
 
 b)9 days ago i.e Aug 20,2015
 
-c) .classpath , .gitattributes, .gitignore , . project
+c) .classpath , .gitattributes, .gitignore , . project ,README.txt, HardwoodSeller.java
 
 d)  Controller i.e Harwoodseller.java  (29 additions  -1 commit)
     Model i.e. WoodItem.java      (74 additions - 2 commits)
