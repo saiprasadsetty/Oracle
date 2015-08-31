@@ -3,15 +3,12 @@
  */
 package model;
 
-/**
- * @author USER
- *
- */
-public class WoodItem {
-
-	String type;
+public class WoodItem 
+{
+        String type;
 	Double baseDeliveryTime;
 	Double price;
+        private Double feet;
 	
 	/**
 	 * Default constructor 
@@ -28,11 +25,20 @@ public class WoodItem {
 	 * @param daseDeliveryTime base delivery time
 	 * @param price price per Bare Foot
 	 */
-	public WoodItem(String type, Double daseDeliveryTime, Double price) {
+	public WoodItem(String type, Double baseDeliveryTime, Double price,Double feet) {
 		this.type = type;
-		this.baseDeliveryTime = daseDeliveryTime;
+		this.baseDeliveryTime = baseDeliveryTime;
 		this.price = price;
+                this.feet=feet;
 	}
+
+    public Double getFeet() {
+        return feet;
+    }
+
+    public void setFeet(Double feet) {
+        this.feet = feet;
+    }
 
 	/**
 	 * Get the type of Wood
@@ -48,7 +54,7 @@ public class WoodItem {
 	 * 
 	 * @return the baseDeliverytime
 	 */
-	public Double getDaseDeliveryTime() {
+	public Double getbaseDeliveryTime() {
 		return baseDeliveryTime;
 	}
 
@@ -70,5 +76,5 @@ public class WoodItem {
 	public String toString() {	
 		return "";
 	}
-	
+	   
 }
