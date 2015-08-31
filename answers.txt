@@ -1,15 +1,15 @@
-﻿a) 8 commits
+a) 8 commits
 
-b)9 days ago
+b)9 days ago i.e Aug 20,2015
 
 c) .classpath , .gitattributes, .gitignore , . project
 
-d)  Harwoodseller.java  29 additions
-     WoodItem.java         74 additions
+d)  Controller i.e Harwoodseller.java  (29 additions  -1 commit)
+    Model i.e. WoodItem.java      (74 additions - 2 commits)
 
 e) git log : it is the log of all commits made to this repository
    
-    git status : it gives status of your branch with origin/master . It also gives all changes to be committed.
+    git status : it gives status of your branch since last successfull command . It also gives all changes to be committed.
 
 f)git log --grep “main.java”
 
