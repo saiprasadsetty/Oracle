@@ -35,7 +35,7 @@ public class HardwoodSeller
                 String date=null;
                 Double[] deltimes=new Double[100];
                 int k=0;
-                WoodItem w[]=new woodItem[10];
+                WoodItem w[]=new WoodItem[10];
                 String str1;
                 double deltime=0.0,price=0.0,feet1=0.0;
 		try
