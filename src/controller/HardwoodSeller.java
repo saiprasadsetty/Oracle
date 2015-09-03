@@ -142,13 +142,16 @@ public class HardwoodSeller
                                  feet1=(double)feet;
                             w[k]=new WoodItem(woodname,deltime,price,feet1);
                         }
+                       System.out.println("----------output----------");
                        System.out.println("Buyername"+buyername);
                        System.out.println("address"+address);
                        System.out.println("value of k"+k);
+                       double tot=0.0;
                        for(int j=0;j<k;j++)
                        {
                            System.out.println(w[j].getType()+"--------"+w[j].getPrice()+"--------"+w[j].getFeet());
                            deltimes[j]=w[j].getbaseDeliveryTime();
+                           tot=tot+w[j].getPrice();
                            
                        }
                        double max=0.0;
@@ -162,7 +165,8 @@ public class HardwoodSeller
          }
 
         }  
-        System.out.println("estimated deliverytime is" + max);                       
+        System.out.println("estimated deliverytime is" + max);   
+        System.out.println("total price of the purchase"+tot);
                 }
                 catch (IOException e) 
                 {
